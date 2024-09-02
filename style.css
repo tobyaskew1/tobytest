@@ -1,0 +1,116 @@
+body{
+    background-color: #E3DBD3;
+}
+h2, h3 {
+    color: #8BA4B3;
+    font-family: Dancing Script;
+    font-weight: bolder;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+h2{
+    font-size: 2.5rem;
+}
+p {
+    font-family: Protest Riot;
+    font-size: 1.25rem;
+}
+.navbar{
+
+    background-color: #E3DBD3 ;
+}
+.leahToby{
+    font-family: Protest Riot;
+    color: #9D7982;
+    font-size: 1.75rem;
+    letter-spacing: 0.75rem;
+}
+.date{
+    font-family: Protest Riot;
+    color: #9D7982;
+    font-size: 1.5rem;
+    letter-spacing: 0.25rem;
+}
+@keyframes main{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+#mainPage{
+    background-color: #E3DBD3;
+    animation-name: main;
+    animation-duration: 2s;
+    
+}
+#leaves {
+    width: 50%;
+    height: auto;
+}
+
+#invite{
+    overflow: hidden;
+}
+#pic{
+    height: auto;
+    width: 100%;
+    border-radius: 20%;
+}
+#overlayText{
+    font-size: 3rem;
+    color: #9D7982;
+}
+#treePic{
+    border-radius: 20%;
+    height: auto;
+    width: 50%;
+}
+#countdown{
+    font-size: 1.5rem;
+}
+.kphImage, .churchImage{
+    width: 100%;
+    height: auto;
+    opacity: 30%;
+    border-radius: 5%;
+    max-width: 850px;
+}
+.party, .church{
+    position: relative;
+    text-align: center;
+    color: black;
+    padding-bottom: 5%;
+
+}
+.partyHead, .churchHead{
+    top: 15%;
+    left: 50%;
+    font-size: 2rem;
+}
+.partyLoc, .churchLoc{
+    top: 50%;
+    left: 50%;
+    font-size: 1.25rem;
+}
+footer{
+    text-align: center;
+    border-top: 5px solid #9D7982;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-top: 0;
+}
+.foot-text{
+    padding-top: 5%;
+    opacity: 0.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+}
+.colour {
+    width: 50%;
+    height: auto;
+    border-radius: 20%;
+}
+.nav-link{
+    text-decoration: none;
+    text-decoration: underline;
+    font-family: Protest Riot;
+}
